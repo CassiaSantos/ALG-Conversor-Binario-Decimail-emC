@@ -4,7 +4,8 @@
 #include <math.h>
 #include <string.h>
 
-#define TAM_VETOR 32//Constante para definir o tamanho do vetor;
+//Constante para definir o tamanho do vetor:
+#define TAM_VETOR 32
 
 void main() {
 
@@ -31,5 +32,4 @@ void main() {
 	
 	//Imprime o valor do número de entrada na base decimal:
 	printf("Esse número corresponde a %ld na base Decimal!", numDecimal);
-}
 }
